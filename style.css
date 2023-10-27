@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.bg-0 {
+    position: absolute;
+    width: 2900px;
+    top: calc(50% - 100px);
+    left: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.bg-1 {
+    position: absolute;
+    width: 2900px;
+    top: calc(50% - 100px);
+    left: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.bg-2 {
+    position: absolute;
+    width: 2900px;
+    top: calc(50% - 100px);
+    left: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.Mid {
+    position: absolute;
+    width: 2000px;
+    top: calc(50% - 100px);
+    left: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+.Front {
+    position: absolute;
+    width: 2000px;
+    top: calc(50% - 10px);
+    left: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+    z-index: 6;
+}
+.text {
+    position: absolute;
+    width: max-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    pointer-events: auto;
+}
+.text h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 8rem;
+    font-weight: 100;
+}
+.text h1 {
+    font-family: 'Nosifer', sans-serif;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.parallax {
+    pointer-events: none;
+}
+
+::selection {
+    background: #004e21;
+}
